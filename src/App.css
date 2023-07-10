@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+}
+
+.row1, .row2 {
+  display: table-row;
+}
+
+.col1, .col2, .col3 {
+  display: table-cell;
+  padding: 10px;
+}
+
+.col1 {
+  width: 500px;
+}
+
+.col2, .col3 {
+  width: 150px;
+}
+
+table {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.button {
+  margin-right: 10px;
+}
